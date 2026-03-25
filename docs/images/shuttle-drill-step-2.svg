@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Step 2: Run toward anchor B</title>
+  <desc id="desc">Runner moves from anchor A side to anchor B while listening on channel 1.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f9f7f2; }
+      .lane { fill: #fff; stroke: #e5dcc9; stroke-width: 3; }
+      .a { fill: #9ca3af; }
+      .b { fill: #9a3412; }
+      .runner { fill: #14532d; }
+      .arrow { stroke: #0f766e; stroke-width: 7; fill: none; marker-end: url(#ah); }
+      .txt1 { fill: #111827; font: 700 24px 'Avenir Next', 'Trebuchet MS', sans-serif; }
+      .txt2 { fill: #374151; font: 600 18px 'Avenir Next', 'Trebuchet MS', sans-serif; }
+      .call { fill: #0f766e; font: 700 20px 'Avenir Next', 'Trebuchet MS', sans-serif; }
+    </style>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f766e" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1200" height="320" rx="20" />
+  <rect class="lane" x="70" y="90" width="1060" height="170" rx="18" />
+
+  <g transform="translate(150,155)">
+    <polygon class="a" points="0,55 35,0 70,55" />
+    <text class="txt2" x="-10" y="92">Anchor A (ch 0)</text>
+  </g>
+  <g transform="translate(970,155)">
+    <polygon class="b" points="0,55 35,0 70,55" />
+    <text class="txt2" x="-10" y="92">Anchor B (ch 1)</text>
+  </g>
+
+  <g transform="translate(560,145)">
+    <circle class="runner" cx="26" cy="18" r="14" />
+    <rect class="runner" x="14" y="33" width="24" height="42" rx="10" />
+    <text class="txt2" x="-40" y="100">Runner now listening on ch 1</text>
+  </g>
+
+  <path class="arrow" d="M 260 170 C 420 125, 700 125, 900 170" />
+
+  <text class="txt1" x="70" y="52">Step 2: Runner shuttles toward Anchor B</text>
+  <text class="call" x="70" y="285">Must reach the opposite anchor for next valid detection</text>
+</svg>

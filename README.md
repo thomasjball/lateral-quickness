@@ -17,6 +17,16 @@ run between the two anchors.
 - The runner physically moves between anchors to keep triggering channel toggles.
 - Press B on runner to display current score.
 
+### Drill illustrations
+
+![Lateral quickness drill overview](docs/images/shuttle-drill-overview.svg)
+
+![Step 1 - detect anchor A](docs/images/shuttle-drill-step-1.svg)
+
+![Step 2 - run to anchor B](docs/images/shuttle-drill-step-2.svg)
+
+![Step 3 - detect anchor B and run back](docs/images/shuttle-drill-step-3.svg)
+
 ## Run this project
 
 To edit this repository in MakeCode and deploy it to the micro:bits,

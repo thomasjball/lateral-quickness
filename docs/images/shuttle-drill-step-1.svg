@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Step 1: Detect anchor A</title>
+  <desc id="desc">Runner starts near anchor A on channel 0 and detects pulse.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f6f7fb; }
+      .lane { fill: #fff; stroke: #d1d5db; stroke-width: 3; }
+      .a { fill: #1d4e89; }
+      .b { fill: #9ca3af; }
+      .runner { fill: #166534; }
+      .pulse { stroke: #1d4e89; stroke-width: 4; fill: none; }
+      .txt1 { fill: #111827; font: 700 24px 'Avenir Next', 'Trebuchet MS', sans-serif; }
+      .txt2 { fill: #374151; font: 600 18px 'Avenir Next', 'Trebuchet MS', sans-serif; }
+      .call { fill: #0f766e; font: 700 20px 'Avenir Next', 'Trebuchet MS', sans-serif; }
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="320" rx="20" />
+  <rect class="lane" x="70" y="90" width="1060" height="170" rx="18" />
+
+  <g transform="translate(150,155)">
+    <polygon class="a" points="0,55 35,0 70,55" />
+    <circle class="pulse" cx="35" cy="24" r="42" />
+    <circle class="pulse" cx="35" cy="24" r="62" opacity="0.7" />
+    <text class="txt2" x="-10" y="92">Anchor A (ch 0)</text>
+  </g>
+
+  <g transform="translate(970,155)">
+    <polygon class="b" points="0,55 35,0 70,55" />
+    <text class="txt2" x="-10" y="92">Anchor B (ch 1)</text>
+  </g>
+
+  <g transform="translate(260,145)">
+    <circle class="runner" cx="26" cy="18" r="14" />
+    <rect class="runner" x="14" y="33" width="24" height="42" rx="10" />
+    <text class="txt2" x="-20" y="100">Runner on ch 0</text>
+  </g>
+
+  <text class="txt1" x="70" y="52">Step 1: Runner detects Anchor A pulse</text>
+  <text class="call" x="70" y="285">Score +1, then switch listening channel: 0 → 1</text>
+</svg>

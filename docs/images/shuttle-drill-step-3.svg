@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Step 3: Detect anchor B and return</title>
+  <desc id="desc">Runner detects anchor B on channel 1, increments score, and switches back to channel 0.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f3f8f6; }
+      .lane { fill: #fff; stroke: #c9ddd6; stroke-width: 3; }
+      .a { fill: #1d4e89; }
+      .b { fill: #9a3412; }
+      .runner { fill: #166534; }
+      .pulse { stroke: #9a3412; stroke-width: 4; fill: none; }
+      .arrow { stroke: #0f766e; stroke-width: 7; fill: none; marker-end: url(#ah); }
+      .txt1 { fill: #111827; font: 700 24px 'Avenir Next', 'Trebuchet MS', sans-serif; }
+      .txt2 { fill: #374151; font: 600 18px 'Avenir Next', 'Trebuchet MS', sans-serif; }
+      .call { fill: #0f766e; font: 700 20px 'Avenir Next', 'Trebuchet MS', sans-serif; }
+    </style>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f766e" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1200" height="320" rx="20" />
+  <rect class="lane" x="70" y="90" width="1060" height="170" rx="18" />
+
+  <g transform="translate(150,155)">
+    <polygon class="a" points="0,55 35,0 70,55" />
+    <text class="txt2" x="-10" y="92">Anchor A (ch 0)</text>
+  </g>
+
+  <g transform="translate(970,155)">
+    <polygon class="b" points="0,55 35,0 70,55" />
+    <circle class="pulse" cx="35" cy="24" r="42" />
+    <circle class="pulse" cx="35" cy="24" r="62" opacity="0.7" />
+    <text class="txt2" x="-10" y="92">Anchor B (ch 1)</text>
+  </g>
+
+  <g transform="translate(910,145)">
+    <circle class="runner" cx="26" cy="18" r="14" />
+    <rect class="runner" x="14" y="33" width="24" height="42" rx="10" />
+    <text class="txt2" x="-24" y="100">Runner on ch 1</text>
+  </g>
+
+  <path class="arrow" d="M 900 195 C 700 245, 430 245, 250 195" />
+
+  <text class="txt1" x="70" y="52">Step 3: Detect Anchor B, then switch back</text>
+  <text class="call" x="70" y="285">Score +1, listening channel toggles: 1 → 0, run back to Anchor A</text>
+</svg>
