@@ -3,14 +3,18 @@
 
 ## Using this code
 
-You will need three micro:bits for this project. Two micro:bits act as "anchors" placed on top of cones. A third micro:bit is for you, the runner!
+You will need three micro:bits for this project. Two micro:bits act as "anchors" placed on top of cones - they are stationary. 
+A third micro:bit is the "runner", which you will carry as you
+run between the two anchors.
 
-- Set up two micro:bits as anchors (A and B).
-- Each anchor is configured with the same project code and put into anchor mode (press A).
-- Anchor devices alternate broadcast channel each time they are heard by the runner.
+- Set up two micro:bits as anchors by pressing the A button on each one.
+- The first anchor broadcasts on channel 0. Press A+B on the second anchor so it broadcasts on channel 1.
 - The third micro:bit is the runner; touch logo to start a 30-second run.
 - Runner micro:bit listens for anchor radio pulses and increments score for each valid detection (strong signal).
-- The runner physically moves between anchors to maintain the path and keep triggering channel toggles.
+- When the runner detects an anchor, it switches to the other
+  radio channel (0 -> 1; 1 -> 0), which requires that the runner
+  get to the other anchor to get the next valid detection.
+- The runner physically moves between anchors to keep triggering channel toggles.
 - Press B on runner to display current score.
 
 ## Run this project
