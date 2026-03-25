@@ -1,7 +1,12 @@
 
 > Open this page at [https://tiilt-lab-code.github.io/lateral-quickness/](https://tiilt-lab-code.github.io/lateral-quickness/)
 
-## Using this code
+## Run this project
+
+To edit this repository in MakeCode and deploy it to the micro:bits,
+click [here](https://makecode.microbit.org/#pub:https://github.com/tiilt-lab-code/lateral-quickness)
+
+## Setup
 
 You will need three micro:bits for this project. Two micro:bits act as "anchors" placed on top of cones - they are stationary. 
 A third micro:bit is the "runner", which you will carry as you
@@ -27,10 +32,6 @@ run between the two anchors.
 
 ![Step 3 - detect anchor B and run back](docs/images/shuttle-drill-step-3.svg)
 
-## Run this project
-
-To edit this repository in MakeCode and deploy it to the micro:bits,
-click [here](https://makecode.microbit.org/#pub:https://github.com/tiilt-lab-code/lateral-quickness)
 
 #### Metadata (used for search, rendering)
 
