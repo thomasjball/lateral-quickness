@@ -15,20 +15,8 @@ You will need three micro:bits for this project. Two micro:bits act as "anchors"
 
 ## Run this project
 
-To edit this repository in MakeCode and deploy it to the micro:bits:
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/tiilt-lab-code/lateral-quickness** and click import
-
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/tiilt-lab-code/lateral-quickness** and import
+To edit this repository in MakeCode and deploy it to the micro:bits,
+click [here](https://makecode.microbit.org/#pub:https://github.com/tiilt-lab-code/lateral-quickness)
 
 #### Metadata (used for search, rendering)
 
