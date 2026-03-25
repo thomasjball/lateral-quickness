@@ -6,7 +6,7 @@
 To edit this repository in MakeCode and deploy it to the micro:bits,
 click [here](https://makecode.microbit.org/#pub:https://github.com/tiilt-lab-code/lateral-quickness)
 
-## Setup
+## Physical setup
 
 You will need three micro:bits for this project. Two micro:bits act as "anchors" placed on top of cones - they are stationary. 
 A third micro:bit is the "runner", which you will carry as you
@@ -22,7 +22,7 @@ run between the two anchors.
 - The runner physically moves between anchors to keep triggering channel toggles.
 - Press B on runner to display current score.
 
-### Drill illustrations
+### Illustrations
 
 ![Lateral quickness drill overview](docs/images/shuttle-drill-overview.svg)
 
