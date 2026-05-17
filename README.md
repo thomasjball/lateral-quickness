@@ -32,8 +32,12 @@ run between the two anchors.
 
 ![Step 3 - detect anchor B and run back](docs/images/shuttle-drill-step-3.svg)
 
+## State machine
+
+![state machine](docs/images/state_machine.svg)
 
 #### Metadata (used for search, rendering)
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
